@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "source": {
+    "period": "1",
+    "document_id": "SAMPLE-DOC",
+    "revision_id": 1
+  },
+  "courses": [
+    {
+      "course_key": "course-a",
+      "name": "课程A",
+      "group_count": 1,
+      "description": "使用匿名练习材料完成两次基础任务",
+      "audience": "希望练习基本操作的模拟学习者",
+      "source_url": "https://example.com/course-a",
+      "start_time": "2099-01-01T09:00:00+08:00",
+      "end_time": "2099-01-10T20:00:00+08:00",
+      "task_count": 2,
+      "task_count_status": "已确认",
+      "source_revision_id": 1
+    }
+  ]
+}

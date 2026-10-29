@@ -1,0 +1,8 @@
+{
+  "source": "本次用户提供的微信二维码截图",
+  "display_name_visible_in_image": "magicyang",
+  "owner_wechat": null,
+  "qr_image_file": "负责人微信二维码.jpg",
+  "qr_image_default_when_no_new": true,
+  "note": "用户确认：本期未提供新二维码时，使用本文件所指图片；提供新图则以新图优先。截图未显示可核实的文字微信号；不能把展示名当微信号，也不能把本地路径填入平台图片 URL。选定图片须取得并核对平台可访问 URL。"
+}

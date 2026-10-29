@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "key": ["period", "course_key"],
+  "course_fields": [
+    {"key": "period", "name": "营期年月", "type": "text", "required": true, "rule": "YYYY-MM；与规划营期一致"},
+    {"key": "planning_period_number", "name": "规划期数", "type": "number", "required": true, "rule": "取当期规划标题的第几期；招募任务使用该期数"},
+    {"key": "course_key", "name": "课程稳定键", "type": "text", "required": true, "rule": "同一课程跨期保持稳定；同营期唯一"},
+    {"key": "course_name", "name": "规划课程名", "type": "text", "required": true, "rule": "以当期课程规划原名为准"},
+    {"key": "checkin_course_name", "name": "打卡课程原名", "type": "text", "required": false, "rule": "仅在与规划课程名不同且已确认对应关系时填写"},
+    {"key": "group_count", "name": "群数", "type": "number", "required_for": ["assistant_roster", "assistant_recruitment"], "rule": "正整数；未知时不得生成名额"},
+    {"key": "group_status", "name": "群数状态", "type": "text", "required_for": ["assistant_roster", "assistant_recruitment"], "rule": "已确认/待确认/有冲突；仅已确认可供助教名额计算"},
+    {"key": "task_ids", "name": "明确编号Task", "type": "json_array_text", "required_for": ["learner_certificate_rule"], "rule": "仅收录当期任务安排中明确编号的不同Task；包括标为可选的编号Task；按编号去重排序"},
+    {"key": "task_count", "name": "规划Task数", "type": "number", "required_for": ["learner_certificate_rule"], "rule": "等于task_ids去重后的长度；不由最大编号、章节、天数或报名任务数推断"},
+    {"key": "task_count_status", "name": "Task数量状态", "type": "text", "required_for": ["assistant_recruitment"], "rule": "已确认/待确认/有冲突；只判断编号Task数量本身，不包含打卡课程匹配状态"},
+    {"key": "task_rule_status", "name": "Task规则状态", "type": "text", "required_for": ["learner_certificate_rule"], "rule": "已确认/待确认/有冲突；仅已确认可供证书资格规则使用"},
+    {"key": "last_task_deadline", "name": "最后编号Task截止日", "type": "text", "required_for": ["learner_certificate_date"], "rule": "YYYY-MM-DD；仅当所有相关Task日期可核对且无旧期冲突时填写"},
+    {"key": "description", "name": "课程说明", "type": "text", "required_for": ["assistant_recruitment"]},
+    {"key": "audience", "name": "面向人群", "type": "text", "required_for": ["assistant_recruitment"]},
+    {"key": "content_url", "name": "课程内容地址", "type": "text", "required_for": ["assistant_recruitment"]},
+    {"key": "start_time", "name": "课程开始时间", "type": "text", "required_for": ["assistant_recruitment"], "rule": "明确日期、时间、时区；未知留空"},
+    {"key": "end_time", "name": "课程结束时间", "type": "text", "required_for": ["assistant_recruitment"], "rule": "明确日期、时间、时区；不可由最后编号Task截止日自动代替"},
+    {"key": "schedule_summary", "name": "本期排期摘要", "type": "text", "required_for": ["assistant_recruitment"]},
+    {"key": "source_document_id", "name": "规划文档ID", "type": "text", "required": true},
+    {"key": "source_revision_id", "name": "规划版本", "type": "number", "required": true, "rule": "该课程字段最后核对的规划修订号；文档更新只改受影响课程行"},
+    {"key": "source_locator", "name": "来源位置", "type": "text", "required": true, "rule": "记录表格行或课程小节；Task数量须能定位任务安排"},
+    {"key": "confirmation_status", "name": "确认状态", "type": "text", "required": true, "rule": "已确认/待确认/有冲突；字段级疑点写变更依据"},
+    {"key": "change_basis", "name": "变更依据", "type": "text", "required": false, "rule": "记录发生变化的字段、来源版本、原值、新值和确认人或确认记录"}
+  ],
+  "derived": {
+    "assistant_operations_capacity": "group_count",
+    "assistant_professional_capacity": "group_count * 2",
+    "learner_certificate_required_checkins": "task_count"
+  }
+}

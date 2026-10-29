@@ -1,0 +1,265 @@
+[
+  {
+    "module": "assistant",
+    "file": "scripts/助教评价入口.mjs",
+    "source_sha256": "0166DD9B15CB161BC7CE86902C4889AC549C2E7A9E625C0CD1BE82EB9F017A99",
+    "packaged_sha256": "3B3A09A6239C72DCA4DD9D64D7C0E629221CA255C7E9977199EFE9989752B7BE",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/助教评价入口.ps1",
+    "source_sha256": "4D2CD98C415A741912FC3DB6B9F297544395A5B0B8C11F3D0071C7990534F3DE",
+    "packaged_sha256": "B15F9A72B9277EAE98805F4B304F641C5CF7F7201C4A57720770C870A391724C",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/运行环境.mjs",
+    "source_sha256": "56C8187E7E09EFC77217080AACCEEA8CBDFBF31E38025CE4F074E09F7B462A30",
+    "packaged_sha256": "56C8187E7E09EFC77217080AACCEEA8CBDFBF31E38025CE4F074E09F7B462A30",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/招募草稿.mjs",
+    "source_sha256": "CC011A96FEA0B5456EA4BE701B2DF0BA91C039B9A3CB75CFFBEF2C5A4FAD8BD4",
+    "packaged_sha256": "CFB8D75E0988E14E211B232F9F5A99FE7E71EA565735534D66388415E1CCFCD5",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/草稿边界.mjs",
+    "source_sha256": "0EB74B9DDC8BCB414B4C750FC717F810754D834EE54A4B0CAA72C8E8C09D4F14",
+    "packaged_sha256": "0EB74B9DDC8BCB414B4C750FC717F810754D834EE54A4B0CAA72C8E8C09D4F14",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/上期招募.mjs",
+    "source_sha256": "778E247BB7203957D970B458B47D56B4361193E49588AC9831B7C29A0A533ED6",
+    "packaged_sha256": "778E247BB7203957D970B458B47D56B4361193E49588AC9831B7C29A0A533ED6",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/北京时间.mjs",
+    "source_sha256": "AF62BF992A879C13F0DA70FD405B3A4BE5CA54D4C22C1E03A7861BD30355AC4F",
+    "packaged_sha256": "AF62BF992A879C13F0DA70FD405B3A4BE5CA54D4C22C1E03A7861BD30355AC4F",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/招募平台草稿.mjs",
+    "source_sha256": "11F0857326EC5936790348AAFF800258AB6BE58D2E100D6CEE578084B5AB08F9",
+    "packaged_sha256": "E079BC77D41A01353732C532DA58CC7A06A7B0CA437F900DE7F5E0738EDADF39",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/飞书清单同步.mjs",
+    "source_sha256": "A2BD467462AF7D8064545E4974E544BEE98DCB91CA0F94F618D087165BB5B703",
+    "packaged_sha256": "59324B05F8AF206D308568BAFD31C71CE635E821FE76FA106E6FAE5ECA86B6C6",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/助教清单.py",
+    "source_sha256": "0666C99BB0BE6A382369F01FED4E858FD475FD36CD0348CE5770DE07EE3E32FA",
+    "packaged_sha256": "D768DC4FA96A5A08F7182CF5C4D03298F75FF77EF6222767ED7C986BDD0232D0",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/单维表评价.mjs",
+    "source_sha256": "6E8D76ABBD8AFE880665BD213D4ACE8A6B14B7DC600051A0382AE121A8E6206F",
+    "packaged_sha256": "20CAC315C839F6BAE1C2894B20C8186C4E8FD7D913BACE803192948A44F3A61B",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/核对后发布.mjs",
+    "source_sha256": "E4BA4F6ED061C9188655BDB67EE1E972C68FFB046C9A2941553D7F747C07CE06",
+    "packaged_sha256": "E4BA4F6ED061C9188655BDB67EE1E972C68FFB046C9A2941553D7F747C07CE06",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/等级发放.mjs",
+    "source_sha256": "2A6D8FD5991A95B736FE6EFA391F15156C33B7BCB722AF97B1A3AD4BB936827D",
+    "packaged_sha256": "4BBA37C878C459C1A0CF72146E392DC632B36E238ECA2C57DE23C26984A684FA",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/成本记录.mjs",
+    "source_sha256": "39CFF2162D0F95E304F7F3686C6AC0421DD4FFAEA5243FD195972A82F55AA275",
+    "packaged_sha256": "39CFF2162D0F95E304F7F3686C6AC0421DD4FFAEA5243FD195972A82F55AA275",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/证书制作表.mjs",
+    "source_sha256": "C02ECEAA2E15ACC51A69AFF6F052652F8F36FFE653E5767FD00FAF8E245EB9BB",
+    "packaged_sha256": "C02ECEAA2E15ACC51A69AFF6F052652F8F36FFE653E5767FD00FAF8E245EB9BB",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/最终证书名单.mjs",
+    "source_sha256": "B940AB25175C9399B041DAF10A508F51D02FE55853DA411E0A94FA649BB0DCB9",
+    "packaged_sha256": "AAFCE2F9ABA37F6CFB5CD1F1F6283DCE2555C45BDB16559214CC3D469CC0D183",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/个人证书制作.py",
+    "source_sha256": "49B2D696561835D35F789E09CB7286E38ADF535D6C8C3FD331D6B8A4150EA047",
+    "packaged_sha256": "848B073E0856F445637E403261FA7E79DC6977D9E1C1E0F79A92330CA5C24D08",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/证书附件上传.mjs",
+    "source_sha256": "4D058C3E1C41905630537113D99636B27B41D49A5C02FC4F7D23C3CE94A1D379",
+    "packaged_sha256": "D93B976D8D9017BE155BDEAC65FF28E482AE1B4B6B67E89CAB5BE34434790094",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "assets/岗位模板.json",
+    "source_sha256": "81062476323E79C974C1E1CED0FF1E0CB2B5A65732973C0EB4A17D7387107ADB",
+    "packaged_sha256": "81062476323E79C974C1E1CED0FF1E0CB2B5A65732973C0EB4A17D7387107ADB",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "assets/岗位适用项.json",
+    "source_sha256": "4EA66D0B37D483DB182CDB9C6FCAA5BC224848DE5C37F9672E75A79899E5C83E",
+    "packaged_sha256": "4EA66D0B37D483DB182CDB9C6FCAA5BC224848DE5C37F9672E75A79899E5C83E",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "assets/单维表列序.json",
+    "source_sha256": "6DBC5112C3C0735DB60F77AD2C9C22D96BC378725959783CC8BFF028CEF51FD8",
+    "packaged_sha256": "6DBC5112C3C0735DB60F77AD2C9C22D96BC378725959783CC8BFF028CEF51FD8",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "assets/共享课程参数字段.json",
+    "source_sha256": "03394AA3E9459BFDB93DEC23F6955574340EFB1A78B05FCF726966AF179D189E",
+    "packaged_sha256": "03394AA3E9459BFDB93DEC23F6955574340EFB1A78B05FCF726966AF179D189E",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/learning-record-contract.mjs",
+    "source_sha256": "41AEB92BECF08081D42285AB440867E81FE76B684E340B5878C7FBCAD249A08D",
+    "packaged_sha256": "41AEB92BECF08081D42285AB440867E81FE76B684E340B5878C7FBCAD249A08D",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/lark.mjs",
+    "source_sha256": "B3CD748D151631D7CB4ADB1D00E6207DF9136DCDDC1B8E27CABBDA548C3468D8",
+    "packaged_sha256": "85F08F99929C6A1590D823A5F5A552572F26BF9E28316780CE5D871916C7E9E4",
+    "changed_from_source": true
+  },
+  {
+    "module": "learner",
+    "file": "scripts/checkin.mjs",
+    "source_sha256": "85E6D8B6915324325B0BB780DCFD0D9C9ED8847A7A69A544E064BC4D8013785E",
+    "packaged_sha256": "85E6D8B6915324325B0BB780DCFD0D9C9ED8847A7A69A544E064BC4D8013785E",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/progress.mjs",
+    "source_sha256": "5941C8856954E6415BB37407D08B3CA037351862C4E58FB690B1EAA88CF17195",
+    "packaged_sha256": "5941C8856954E6415BB37407D08B3CA037351862C4E58FB690B1EAA88CF17195",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/certificate-status.mjs",
+    "source_sha256": "D48EB102DE29F49B54F468AF6722BA7AE7C44A0607A272FCC6ED36C70324AC0E",
+    "packaged_sha256": "D48EB102DE29F49B54F468AF6722BA7AE7C44A0607A272FCC6ED36C70324AC0E",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/certificates.py",
+    "source_sha256": "47E908E58D1255BDE8D998F74550100C0C117E37F2D223794927C92F485C9F7A",
+    "packaged_sha256": "47E908E58D1255BDE8D998F74550100C0C117E37F2D223794927C92F485C9F7A",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/certificates_ppt.py",
+    "source_sha256": "08056C168E6CA63E9C509E0E16EEC2249F7AEA0EC1623EFEB14D8A58E602FE98",
+    "packaged_sha256": "08056C168E6CA63E9C509E0E16EEC2249F7AEA0EC1623EFEB14D8A58E602FE98",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/certificate-ppt-export.ps1",
+    "source_sha256": "4FF59FF8028F434380BD4A102A68514B7F62C36DB3E9EEF4566E62A5C6100968",
+    "packaged_sha256": "4FF59FF8028F434380BD4A102A68514B7F62C36DB3E9EEF4566E62A5C6100968",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/new-period-base.mjs",
+    "source_sha256": "D4F15494BA89F6034CCEBAB9ADD5458C8FA87FE2AA5A600F4AE0178E64D1D9FF",
+    "packaged_sha256": "D4F15494BA89F6034CCEBAB9ADD5458C8FA87FE2AA5A600F4AE0178E64D1D9FF",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "scripts/base-template.mjs",
+    "source_sha256": "981BA8B24E64DE11EE0565489D7DB4DDD34E629D8AF81F68DFA6051191AF585B",
+    "packaged_sha256": "981BA8B24E64DE11EE0565489D7DB4DDD34E629D8AF81F68DFA6051191AF585B",
+    "changed_from_source": false
+  },
+  {
+    "module": "learner",
+    "file": "assets/certificate-template-v1.pptx",
+    "source_sha256": "6D60D4710F969CA0399F3F7D42E36AD18980E28DED83BC19C760FB9EBFBF5B8A",
+    "packaged_sha256": "6D60D4710F969CA0399F3F7D42E36AD18980E28DED83BC19C760FB9EBFBF5B8A",
+    "changed_from_source": false
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/招募进度.mjs",
+    "origin": "local_implementation",
+    "source_sha256": null,
+    "packaged_sha256": "88C3F6F40D8AA906D27B57EB2E42B3F29D95E9683716C72222E0A6DDBCA5F7FA",
+    "changed_from_source": true
+  },
+  {
+    "module": "learner",
+    "file": "scripts/learning-cycle.mjs",
+    "origin": "local_implementation",
+    "source_sha256": null,
+    "packaged_sha256": "0085717BFDB12D02576CD5BA883DB40304859F7B87EF0B882558588B342B23BF",
+    "changed_from_source": true
+  },
+  {
+    "module": "shared",
+    "file": "course-info.mjs",
+    "origin": "local_implementation",
+    "source_sha256": null,
+    "packaged_sha256": "3C5C3DB92EB79BC5FD5B26FB543088C9426247315F95843009E7617302829EDE",
+    "changed_from_source": true
+  },
+  {
+    "module": "shared",
+    "file": "workflow-audit.mjs",
+    "origin": "local_implementation",
+    "source_sha256": null,
+    "packaged_sha256": "6FB386AE6992073161B6E3D2487D611C86B757969E5D26DBF442294694DDFDB6",
+    "changed_from_source": true
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "sample_only": true,
+  "course_info": {
+    "schema_version": 1,
+    "period": "2099-01",
+    "period_number": 1,
+    "source": {
+      "document_id": "SAMPLE-DOC",
+      "revision_id": 1,
+      "sample_only": true,
+      "location": "Sample/课程规划标准.md",
+      "note": "匿名模拟来源；文档ID、版本、课程、群数、任务与排期均为演示，不可用于生产"
+    },
+    "courses": [
+      {
+        "course_key": "course-a",
+        "name": "课程A",
+        "checkin_name": "课程A",
+        "group_count": 1,
+        "task_ids": [
+          "task1",
+          "task2"
+        ],
+        "description": "使用匿名练习材料完成两次基础任务",
+        "audience": "希望练习基本操作的模拟学习者",
+        "content_url": "https://example.com/course-a",
+        "start_time": "2099-01-01T09:00:00+08:00",
+        "end_time": "2099-01-10T20:00:00+08:00",
+        "last_task_deadline": "2099-01-10",
+        "course_code": "A",
+        "confirmation": {
+          "group_count": "已确认",
+          "tasks": "已确认"
+        },
+        "evidence": {
+          "course_key": "课程规划标准.md：课程汇总第1行，课程稳定键列（模拟）",
+          "name": "课程规划标准.md：课程汇总第1行，规划课程名列（模拟）",
+          "checkin_name": "课程规划标准.md：课程汇总第1行，打卡课程原名列（模拟）",
+          "group_count": "课程规划标准.md：课程汇总第1行，群数列为1（模拟）",
+          "task_ids": "课程规划标准.md：课程A任务安排，明确列出Task1、Task2（模拟）",
+          "description": "课程规划标准.md：课程A字段表，课程说明行（模拟）",
+          "audience": "课程规划标准.md：课程A字段表，面向人群行（模拟）",
+          "content_url": "课程规划标准.md：课程汇总第1行，内容地址列（模拟）",
+          "start_time": "课程规划标准.md：课程A字段表，课程开始时间行（模拟）",
+          "end_time": "课程规划标准.md：课程A字段表，课程结束时间行（模拟）",
+          "last_task_deadline": "课程规划标准.md：课程A任务安排，最后编号Task2的截止日（模拟）",
+          "course_code": "课程规划标准.md：课程汇总第1行，课程编码列（模拟）"
+        }
+      }
+    ]
+  },
+  "records": [
+    {
+      "record_id": "sample-record-1",
+      "营期": "2099-01",
+      "所学课程": "课程A",
+      "群号": "1群",
+      "学习者编号": "L000001",
+      "微信昵称": "匿名学习者",
+      "证书昵称": "",
+      "任务名称": "task1",
+      "学习心得": "匿名练习记录",
+      "课程评价": 0,
+      "请填写你对本次课程内容的反馈": "匿名反馈",
+      "自动编号": "NO.1",
+      "提交时间": "2099-01-02T10:00:00+08:00"
+    },
+    {
+      "record_id": "sample-record-2",
+      "营期": "2099-01",
+      "所学课程": "课程A",
+      "群号": "1群",
+      "学习者编号": "L000001",
+      "微信昵称": "匿名学习者",
+      "证书昵称": "",
+      "任务名称": "task2",
+      "学习心得": "匿名练习记录",
+      "课程评价": 0,
+      "请填写你对本次课程内容的反馈": "匿名反馈",
+      "自动编号": "NO.2",
+      "提交时间": "2099-01-02T10:00:00+08:00"
+    }
+  ],
+  "existing_roster": []
+}

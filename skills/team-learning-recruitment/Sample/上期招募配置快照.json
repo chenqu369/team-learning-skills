@@ -1,0 +1,19 @@
+{
+  "sample_only": true,
+  "captured_at": "2099-01-01T09:00:00+08:00",
+  "project": {
+    "id": 999998,
+    "certificate_scene": null,
+    "certificate_template_ids": []
+  },
+  "tasks": [
+    {
+      "assistant_identity": "运营助教",
+      "post_submit_content": "匿名示例提示语：请按本期确认的方式联系负责人。"
+    },
+    {
+      "assistant_identity": "专业助教",
+      "post_submit_content": "匿名示例提示语：请按本期确认的方式联系负责人。"
+    }
+  ]
+}

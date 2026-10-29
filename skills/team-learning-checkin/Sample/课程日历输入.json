@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "sample_only": true,
+  "period": "2099-01",
+  "period_number": 1,
+  "source": {"document_id": "SAMPLE-DOC", "revision_id": 1, "sample_only": true},
+  "courses": [
+    {
+      "course_key": "sample-course",
+      "name": "匿名课程",
+      "calendar_short_name": "课程甲",
+      "start_date": "2099-01-01",
+      "end_date": "2099-01-10",
+      "calendar_nodes": [
+        {"node_id": "task1", "kind": "task_deadline", "title": "完成第一次实验", "date": "2099-01-03", "time": "03:00", "status": "已确认", "source_label": "1月3日03:00", "basis": "匿名规划rev1任务表第1行"},
+        {"node_id": "task2", "kind": "task_deadline", "title": "提交总结", "date": "2099-01-09", "time": "24:00", "status": "已确认", "source_label": "1月9日24:00", "basis": "匿名规划rev1任务表第2行"},
+        {"node_id": "final", "kind": "other", "title": "可选展示", "date": null, "time": null, "status": "待确认", "source_label": "第N天结束前", "basis": "匿名规划rev1；缺具体日期"}
+      ]
+    }
+  ]
+}

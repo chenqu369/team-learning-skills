@@ -1,0 +1,26 @@
+{
+  "sample_only": true,
+  "course_info_file": "课程信息.json",
+  "project": {
+    "name": "示例期组队学习助教招募（匿名样例）",
+    "project_type": "assistant",
+    "assistant_category": "team_learning",
+    "assistant_period": "1",
+    "description": null,
+    "content_markdown": null,
+    "cover_image": null,
+    "contact_qr_image_url": null,
+    "tags": null
+  },
+  "after_creation": {
+    "manager_user_ids": [],
+    "certificate_scene": null,
+    "certificate_template_ids": null,
+    "expected_status": "draft"
+  },
+  "owner_wechat": null,
+  "target_project_id": null,
+  "frontend_source_verified_on": "2026-10-15",
+  "server_creation_tested": false,
+  "note": "project 为创建字段。可选空值按当前前端逻辑省略。after_creation 单独处理，不混入新建请求；manager_user_ids 为空时跳过添加平台负责人，不阻断草稿项目准备。先查本期项目，创建后回读；不调用发布接口。null 为待确认。"
+}

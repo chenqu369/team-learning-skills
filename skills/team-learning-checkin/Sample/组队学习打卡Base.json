@@ -1,0 +1,95 @@
+{
+  "sample_only": true,
+  "reference": {
+    "title": "Datawhale 10月组队学习打卡表单",
+    "scope": "10月实际表单结构参考",
+    "live_schema_verified": false
+  },
+  "base_token": null,
+  "checkin_table_id": null,
+  "graduation_table_id": null,
+  "receipt_table_id": null,
+  "tables": [
+    {
+      "purpose": "原始打卡",
+      "fields": [
+        "微信昵称",
+        "所学课程",
+        "群号",
+        "任务名称",
+        "学习心得",
+        "课程评价",
+        "请填写你对本次课程内容的反馈"
+      ],
+      "optional_fields": [
+        "证书昵称"
+      ],
+      "preserve_raw": true
+    },
+    {
+      "purpose": "结营学习者名单",
+      "fields": [
+        "营期",
+        "所学课程",
+        "稳定人员标识",
+        "微信昵称",
+        "证书昵称",
+        "有效Task",
+        "缺失Task",
+        "是否结营",
+        "优秀学习者",
+        "优秀队长"
+      ]
+    },
+    {
+      "purpose": "学习者证书领取",
+      "fields": [
+        "营期编号",
+        "所学课程",
+        "群号",
+        "稳定人员标识",
+        "证书昵称",
+        "制证明细",
+        "证书附件"
+      ],
+      "field_types": {
+        "证书昵称": "text",
+        "所学课程": "select",
+        "群号": "select",
+        "营期编号": "select",
+        "证书附件": "attachment"
+      },
+      "attachment_mode": "attachment_tokens"
+    }
+  ],
+  "views": [
+    {
+      "purpose": "打卡表单"
+    },
+    {
+      "purpose": "打卡数据分析"
+    },
+    {
+      "purpose": "助教评选"
+    },
+    {
+      "purpose": "证书领取",
+      "name": "按昵称领取证书",
+      "visible_fields": [
+        "证书昵称",
+        "证书附件"
+      ],
+      "group_config": [
+        {
+          "field": "所学课程",
+          "desc": false
+        },
+        {
+          "field": "群号",
+          "desc": false
+        }
+      ]
+    }
+  ],
+  "note": "匿名结构示例。领取布局按已验收方案：昵称和附件两列，按课程、群号分组。真实字段ID、选项、表单必填和权限须从当期Base读取。"
+}

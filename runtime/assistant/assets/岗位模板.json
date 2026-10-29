@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "roles": {
+    "专业助教": {
+      "template_id": "role-prof-v1",
+      "description": "认真负责，跟完全程，和学习者一起学习，解答学习者疑问，评选优秀笔记和优秀学习者，及时提醒学习者打卡，完成即可获得优秀助教证书和鲸币奖励\n\n注意：非鲸英助教需两次优秀助教证书后，加入鲸英助教团才有鲸币奖励",
+      "requirement": "解答学习者疑问，评选优秀笔记和优秀学习者",
+      "base_points": 3,
+      "capacity_multiplier": 2
+    },
+    "运营助教": {
+      "template_id": "role-ops-v1",
+      "description": "认真负责，跟完全程，和学习者一起学习，规划好每天要做什么，解答学习者疑问，及时提醒学习者打卡，完成即可获得优秀助教证书和鲸币奖励\n\n注意：非鲸英助教需两次优秀助教证书后，加入鲸英助教团才有鲸币奖励",
+      "requirement": "规划好每天要做什么，解答学习者疑问",
+      "base_points": 5,
+      "capacity_multiplier": 1
+    }
+  },
+  "common": {
+    "requirement": "认真负责，跟完全程，和学习者一起学习，及时提醒学习者打卡",
+    "task_type": "signup",
+    "difficulty": "medium",
+    "claim_mode": "exclusive",
+    "domain": "community",
+    "work_type": "tutoring",
+    "form_fields": [
+      {"label": "姓名", "field_type": "text", "options": null, "is_required": true, "sort_order": 0},
+      {"label": "微信号（方便找到你）", "field_type": "text", "options": null, "is_required": true, "sort_order": 1},
+      {"label": "在职or学生", "field_type": "text", "options": null, "is_required": true, "sort_order": 2},
+      {"label": "学校", "field_type": "text", "options": null, "is_required": true, "sort_order": 3}
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sample_only": true,
+  "manifest": {
+    "sample_only": true,
+    "version": 1,
+    "status": "complete",
+    "test_mode": false,
+    "certificates": [
+      {
+        "name": "示例微信昵称",
+        "course": "课程A",
+        "stable_id": "SAMPLE-COURSE-A-PERSON-001",
+        "role": "结课证书",
+        "number": "SAMPLE-NOT-FORMAL-NORMAL-001",
+        "date": null,
+        "group": "1群",
+        "path": "Sample/files/课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称结课证书.png",
+        "relative_path": "课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称结课证书.png"
+      },
+      {
+        "name": "示例微信昵称",
+        "course": "课程A",
+        "stable_id": "SAMPLE-COURSE-A-PERSON-001",
+        "role": "优秀学习者证书",
+        "number": "SAMPLE-NOT-FORMAL-EXCELLENT-001",
+        "date": null,
+        "group": "1群",
+        "path": "Sample/files/课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称优秀学习者证书.png",
+        "relative_path": "课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称优秀学习者证书.png"
+      },
+      {
+        "name": "示例微信昵称",
+        "course": "课程A",
+        "stable_id": "SAMPLE-COURSE-A-PERSON-001",
+        "role": "优秀队长证书",
+        "number": "SAMPLE-NOT-FORMAL-CAPTAIN-001",
+        "date": null,
+        "group": "1群",
+        "path": "Sample/files/课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称优秀队长证书.png",
+        "relative_path": "课程A/SAMPLE-COURSE-A-PERSON-001/示例微信昵称优秀队长证书.png"
+      }
+    ]
+  },
+  "people": [
+    {
+      "证书昵称": "示例微信昵称",
+      "所学课程": "课程A",
+      "群号": "1群",
+      "证书类型": "结课证书",
+      "微信昵称": "示例微信昵称",
+      "证书编号": "SAMPLE-NOT-FORMAL-NORMAL-001",
+      "课程编号": null,
+      "营期编号": null,
+      "营期名": null,
+      "结营日期": null,
+      "角色": "结课证书",
+      "营期": "2099-01",
+      "稳定人员标识": "SAMPLE-COURSE-A-PERSON-001",
+      "最终名单记录ID": "SAMPLE-FINAL-NORMAL-001"
+    },
+    {
+      "证书昵称": "示例微信昵称",
+      "所学课程": "课程A",
+      "群号": "1群",
+      "证书类型": "优秀学习者证书",
+      "微信昵称": "示例微信昵称",
+      "证书编号": "SAMPLE-NOT-FORMAL-EXCELLENT-001",
+      "课程编号": null,
+      "营期编号": null,
+      "营期名": null,
+      "结营日期": null,
+      "角色": "优秀学习者证书",
+      "营期": "2099-01",
+      "稳定人员标识": "SAMPLE-COURSE-A-PERSON-001",
+      "最终名单记录ID": "SAMPLE-FINAL-EXCELLENT-001"
+    },
+    {
+      "证书昵称": "示例微信昵称",
+      "所学课程": "课程A",
+      "群号": "1群",
+      "证书类型": "优秀队长证书",
+      "微信昵称": "示例微信昵称",
+      "证书编号": "SAMPLE-NOT-FORMAL-CAPTAIN-001",
+      "课程编号": null,
+      "营期编号": null,
+      "营期名": null,
+      "结营日期": null,
+      "角色": "优秀队长证书",
+      "营期": "2099-01",
+      "稳定人员标识": "SAMPLE-COURSE-A-PERSON-001",
+      "最终名单记录ID": "SAMPLE-FINAL-CAPTAIN-001"
+    }
+  ],
+  "existing_receipts": []
+}

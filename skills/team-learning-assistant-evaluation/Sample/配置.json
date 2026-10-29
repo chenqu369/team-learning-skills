@@ -1,0 +1,13 @@
+{
+  "sample_only": true,
+  "period": "2099-01",
+  "output_dir": "../../../output/示例评价运行",
+  "evaluation": {
+    "source_snapshot": "共享表快照.json",
+    "people_file": null,
+    "decisions_file": "评价奖励确认.json",
+    "learner_recruitment_date": null,
+    "learner_recruitment_node": "start",
+    "adapter_file": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_only": true,
+  "purpose": "冗余字段清理后的领取表字段快照，供字段核对和后续复用参考",
+  "source_snapshot": {
+    "readback_date": "2026-10-20",
+    "base_token": "Lm20b7aa4aMtsjscXPrcPETNnfd",
+    "table_id": "tbl4d67U8yO2PIAL",
+    "field_count": 7
+  },
+  "fields": [
+    {
+      "id": "fldsTBPOay",
+      "name": "证书昵称",
+      "type": "text",
+      "style": { "type": "plain" },
+      "default_value": null
+    },
+    {
+      "id": "fldpMLpbda",
+      "name": "证书附件",
+      "type": "attachment",
+      "style": { "type": "plain" }
+    },
+    {
+      "id": "fldv6IyR8t",
+      "name": "营期编号",
+      "type": "select",
+      "multiple": false,
+      "default_value": null,
+      "options": [
+        { "name": "202609", "hue": "Green", "lightness": "Lighter" }
+      ]
+    },
+    {
+      "id": "fldK9qq68m",
+      "name": "所学课程",
+      "type": "select",
+      "multiple": false,
+      "default_value": null,
+      "options": [
+        { "name": "deepagents-in-action", "hue": "Blue", "lightness": "Lighter" },
+        { "name": "llm-algo-leetcode（推理优化方向）", "hue": "Orange", "lightness": "Lighter" },
+        { "name": "Hello-Agents 入门篇", "hue": "Wathet", "lightness": "Lighter" },
+        { "name": "Hello-Agents 进阶篇", "hue": "Yellow", "lightness": "Lighter" },
+        { "name": "深度学习笔记", "hue": "Turquoise", "lightness": "Lighter" },
+        { "name": "Easy Data × AI", "hue": "Red", "lightness": "Lighter" },
+        { "name": "ai-agent-book 共学", "hue": "Purple", "lightness": "Lighter" }
+      ]
+    },
+    {
+      "id": "fldADedXqE",
+      "name": "群号",
+      "type": "select",
+      "multiple": false,
+      "default_value": null,
+      "options": [
+        { "name": "2群", "hue": "Blue", "lightness": "Lighter" },
+        { "name": "1群", "hue": "Orange", "lightness": "Lighter" },
+        { "name": "1群、2群", "hue": "Lime", "lightness": "Lighter" }
+      ]
+    },
+    {
+      "id": "fldLRjZmkH",
+      "name": "归并标识",
+      "type": "text",
+      "style": { "type": "plain" },
+      "default_value": null
+    },
+    {
+      "id": "fldDuh1Wlp",
+      "name": "制证明细",
+      "type": "link",
+      "link_table": "tblWBtPQnh0meNA2",
+      "bidirectional": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sample_only": true,
+  "source": "user",
+  "period": "1",
+  "project_name": "示例期组队学习助教招募（匿名样例）",
+  "publication_mode": "draft_only",
+  "owner_wechat": null,
+  "link_released_at": null,
+  "deadline": null,
+  "target_project_id": 999999,
+  "previous_project_id": 999998,
+  "course_overrides": {},
+  "qr_image": null,
+  "tasks_only": true,
+  "allow_incomplete": true
+}

@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "period": "2099-01",
+  "output_dir": "../../../output/示例招募运行",
+  "recruitment": {
+    "courses_file": "课程信息.json",
+    "overrides_file": "贡献者招募项目.json",
+    "previous_project_id": 999998,
+    "previous_snapshot": "上期招募配置快照.json",
+    "progress_snapshot": "项目任务JSON.json"
+  },
+  "roster": {
+    "courses_file": "课程信息.json",
+    "export_file": null,
+    "offline_workbook": null,
+    "spreadsheet_token": null,
+    "sheet_id": null,
+    "target_snapshot": "月度助教清单.json"
+  },
+  "publication": {
+    "approval_file": null,
+    "adapter_file": null
+  }
+}

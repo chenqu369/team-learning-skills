@@ -1,0 +1,83 @@
+{
+  "sample_only": true,
+  "course_info": {
+    "schema_version": 1,
+    "sample_only": true,
+    "period": "2099-01",
+    "period_number": 1,
+    "source": {
+      "document_id": "SAMPLE-DOCUMENT-001",
+      "revision_id": 1,
+      "sample_only": true
+    },
+    "courses": [
+      {
+        "course_key": "course-a",
+        "name": "课程A",
+        "checkin_name": "课程A",
+        "group_count": 1,
+        "task_ids": [
+          "task1",
+          "task2"
+        ],
+        "description": "虚构课程，仅展示标准输入结构",
+        "audience": null,
+        "content_url": null,
+        "start_time": null,
+        "end_time": null,
+        "last_task_deadline": null,
+        "course_code": null,
+        "confirmation": {
+          "group_count": "已确认",
+          "tasks": "已确认"
+        },
+        "evidence": {}
+      }
+    ]
+  },
+  "graduates": {
+    "sample_only": true,
+    "period": "2099-01",
+    "learners": [
+      {
+        "period": "2099-01",
+        "course": "课程A",
+        "person_id": "SAMPLE-COURSE-A-PERSON-001",
+        "certificate_name": "示例微信昵称",
+        "wechat": "示例微信昵称",
+        "group": "1群",
+        "source_record_ids": [
+          "SAMPLE-CHECKIN-001",
+          "SAMPLE-CHECKIN-002"
+        ],
+        "valid_task_ids": [
+          "task1",
+          "task2"
+        ],
+        "required_task_ids": [
+          "task1",
+          "task2"
+        ],
+        "qualified": true,
+        "status": "符合结营要求",
+        "excellent_learner": true,
+        "excellent_captain": true,
+        "name_source": "wechat_fallback"
+      }
+    ],
+    "pending": [],
+    "registry": {},
+    "summary": {
+      "learners": 1,
+      "qualified": 1,
+      "pending": 0
+    }
+  },
+  "normal_role": "结课证书",
+  "role_codes": {
+    "结课证书": null,
+    "优秀学习者证书": null,
+    "优秀队长证书": null
+  },
+  "existing_final": []
+}

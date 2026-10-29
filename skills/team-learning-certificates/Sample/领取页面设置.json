@@ -1,0 +1,66 @@
+{
+  "sample_only": true,
+  "purpose": "按昵称领取证书",
+  "base_token": null,
+  "source_table_id": null,
+  "receipt_table_id": null,
+  "view_id": null,
+  "view_name": "按昵称领取证书",
+  "visible_fields": [
+    "证书昵称",
+    "证书附件"
+  ],
+  "group_config": [
+    {
+      "field": "所学课程",
+      "desc": false
+    },
+    {
+      "field": "群号",
+      "desc": false
+    }
+  ],
+  "field_types": {
+    "证书昵称": "text",
+    "证书附件": "attachment",
+    "所学课程": "select",
+    "群号": "select",
+    "营期编号": "select"
+  },
+  "grouping_identity": [
+    "营期",
+    "所学课程",
+    "稳定人员标识"
+  ],
+  "source_link_field": "制证明细",
+  "source_attachment_field": "领取用证书附件",
+  "delivery_mode": "attachment_tokens",
+  "filename_pattern": "证书昵称+证书类型.png",
+  "hidden_fields": [
+    "制证明细",
+    "归并标识",
+    "稳定人员标识",
+    "证书编号"
+  ],
+  "source_view_first_fields": [
+    "证书昵称",
+    "领取用证书附件"
+  ],
+  "refresh": "源附件变化后重新运行同步脚本",
+  "permissions": "沿用现有分享设置，实际领取角色的打开与下载另行验证",
+  "note": "布局标准，不是可直接执行的部署配置。实际字段 ID、选项、关联、状态文件与角色权限须从当期表读取。",
+  "learner_query_page": {
+    "title_pattern": "xx期组队学习证书领取",
+    "period_source": "当期课程JSON.period_number",
+    "description": "输入证书昵称，查询下载证书",
+    "query_fields": [
+      "证书昵称"
+    ],
+    "result_fields": [
+      "证书昵称",
+      "证书附件"
+    ],
+    "url_pattern": "/share/base/query/…",
+    "management_view_is_not_delivery": true
+  }
+}

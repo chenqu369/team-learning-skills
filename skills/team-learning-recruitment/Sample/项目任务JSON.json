@@ -1,0 +1,43 @@
+{
+  "sample_only": true,
+  "capture_kind": "project_tasks",
+  "captured_at": "2099-01-01T09:00:00+08:00",
+  "complete": true,
+  "total": 2,
+  "expected_project": {
+    "id": 999999,
+    "name": "示例期组队学习助教招募（匿名样例）",
+    "assistant_period": "1",
+    "assistant_category": "team_learning"
+  },
+  "project": {
+    "id": 999999,
+    "name": "示例期组队学习助教招募（匿名样例）",
+    "assistant_period": "1",
+    "assistant_category": "team_learning"
+  },
+  "tasks": [
+    {
+      "id": 990001,
+      "title": "课程A - 运营助教",
+      "course_key": "course-a",
+      "role": "运营助教",
+      "capacity": 1,
+      "claimed_count": 0,
+      "status": "published",
+      "url": null,
+      "deadline": null
+    },
+    {
+      "id": 990002,
+      "title": "课程A - 专业助教",
+      "course_key": "course-a",
+      "role": "专业助教",
+      "capacity": 2,
+      "claimed_count": 1,
+      "status": "published",
+      "url": null,
+      "deadline": null
+    }
+  ]
+}
