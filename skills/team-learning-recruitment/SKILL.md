@@ -5,6 +5,8 @@ description: Use when preparing current-period assistant recruitment, checking p
 
 # 助教招募
 
+脚本阶段、正式运行入口和历史兼容边界统一见[脚本维护与入口](../../Rules/脚本维护与入口.md)。调用本包 runtime，不在业务项目复制课程或招募引擎。
+
 新增课程/群数、报名更正或换人、扩大范围、中断续跑及导出交接前，执行[全流程防漏与续跑](../../Rules/全流程防漏.md)。当前课程×岗位与报名人员分别完整核对；不能以人数不变复用旧Excel。入口实际 `--apply` 需补 `--audit <核对输入JSON>`；缺全量报名内容时先核对/重新导出，导出点击不等于名单验收。
 
 本 Skill 负责Datawhale每月组队学习助教招募，每月第一周周六固定运行。从输入@马燕鹏获取的**当期课程规划**链接开始，完成在[贡献者平台](https://contributor.datawhale.cn/task-square)创建招募项目、生成并核对岗位任务、读取招募进度、按决定导出报名表、准备当期[助教清单工作簿](https://yijuntech.feishu.cn/sheets/ZkQVscNm9hkf6gtQuLPcQErQnub)子表并交给助教评价，解决“本期助教招什么、招多少、何时导出、怎样核实并交接清单”的问题。

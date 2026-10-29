@@ -4,6 +4,8 @@ description: Use when preparing learning check-in forms or course Task calendars
 ---
 # 打卡与结营
 
+脚本阶段、正式运行入口和历史兼容边界统一见[脚本维护与入口](../../Rules/脚本维护与入口.md)。当期课程 JSON、打卡引擎和本地同步入口按本包调用，不以旧共享参数或旧表格名单路线替代。
+
 ## 功能介绍
 
 从当期课程 JSON 准备打卡表单、课程 Task 日历和助教核对视图；读取完整打卡后核验身份与结营条件，记录人工评优，交出名单及待确认项。
