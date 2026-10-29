@@ -122,7 +122,7 @@
     "module": "assistant",
     "file": "scripts/证书附件上传.mjs",
     "source_sha256": "4D058C3E1C41905630537113D99636B27B41D49A5C02FC4F7D23C3CE94A1D379",
-    "packaged_sha256": "D93B976D8D9017BE155BDEAC65FF28E482AE1B4B6B67E89CAB5BE34434790094",
+    "packaged_sha256": "3E963EBAF4C73DA9872BA120826CF94BEA2880302805CBC73763B724FEF896F9",
     "changed_from_source": true
   },
   {
@@ -251,7 +251,7 @@
     "file": "course-info.mjs",
     "origin": "local_implementation",
     "source_sha256": null,
-    "packaged_sha256": "3C5C3DB92EB79BC5FD5B26FB543088C9426247315F95843009E7617302829EDE",
+    "packaged_sha256": "9E2B88C1069E2711829DC014CBBC62DFB089FEDE8DBD3C91742D38C500FC65DF",
     "changed_from_source": true
   },
   {
@@ -260,6 +260,13 @@
     "origin": "local_implementation",
     "source_sha256": null,
     "packaged_sha256": "6FB386AE6992073161B6E3D2487D611C86B757969E5D26DBF442294694DDFDB6",
+    "changed_from_source": true
+  },
+  {
+    "module": "assistant",
+    "file": "scripts/上传传输.mjs",
+    "source_sha256": null,
+    "packaged_sha256": "53EA68CAAA859E4EB5C74B654E2A4D43AEF3356CE23074EB8B38584B8024092E",
     "changed_from_source": true
   }
 ]

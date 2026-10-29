@@ -24,6 +24,17 @@ test('a complete manifest maps each planned certificate exactly once',()=>{
  const f=fixture();assert.equal(api.planUploads(f.people,f.manifest,f.current,f.config).length,2);
  f.people.push({...f.people[0]});assert.throws(()=>api.planUploads(f.people,f.manifest,f.current,f.config),/重复|唯一|对应|范围/);
 });
+test('resume explicitly accepts a single matching existing attachment, but strict preview still rejects it',()=>{
+ const f=fixture();f.current[0].证书附件=[{file_token:'t1',name:'甲结课证书.png',size:12}];
+ assert.throws(()=>api.planUploads(f.people,f.manifest,f.current,f.config),/已有附件/);
+ assert.equal(api.planUploads(f.people,f.manifest,f.current,f.config,{resume:true}).length,2);
+ f.current[0].证书附件.push({...f.current[0].证书附件[0],file_token:'t2'});
+ assert.throws(()=>api.planUploads(f.people,f.manifest,f.current,f.config,{resume:true}),/附件冲突/);
+});
+test('a configured attachment name protects the real production field',()=>{
+ const f=fixture();f.config.attachment_fields.certificate_name='领取用证书附件';f.current[0].领取用证书附件=[{file_token:'t1',name:'错误.png',size:12}];
+ assert.throws(()=>api.planUploads(f.people,f.manifest,f.current,f.config,{resume:true}),/附件冲突/);
+});
 test('an upload run detects added, removed and same-count replaced source records',()=>{
  for(const mutate of [a=>a.push({...a[0],record_id:'late'}),a=>a.pop(),a=>a[1].record_id='replacement']){
   const f=fixture(),plan=api.planUploads(f.people,f.manifest,f.current,f.config),after=structuredClone(f.current);mutate(after);
